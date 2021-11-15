@@ -12,7 +12,6 @@ public class TwoSumProblem_Approach2 {
         result[0]=map.get(target-numbers[i]);
         result[1]=i;
         return result;
-//        this is a change to check git
       }
       map.put(numbers[i],i);
     }
